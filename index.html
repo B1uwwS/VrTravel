@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VrTravel — Explore the World</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-globe-americas"></i>
+                <span>Vr<strong>Travel</strong></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-tag">✈️ Your Journey Begins Here</p>
+            <h1>Discover the World,<br>One Story at a Time</h1>
+            <p class="hero-subtitle">Travel tips, hidden gems, and unforgettable adventures from every corner of the globe.</p>
+            <div class="hero-buttons">
+                <a href="destinations.html" class="btn btn-primary">Explore Destinations</a>
+                <a href="about.html" class="btn btn-outline">Our Story</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- Featured Destinations -->
+    <section class="section featured">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Popular Places</p>
+                <h2>Featured Destinations</h2>
+                <p class="section-desc">Handpicked destinations that will ignite your wanderlust and inspire your next adventure.</p>
+            </div>
+            <div class="destinations-grid">
+                <div class="dest-card dest-card-large">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Maldives beach">
+                    <div class="dest-card-overlay">
+                        <span class="dest-tag">Tropical</span>
+                        <h3>Maldives</h3>
+                        <p>Crystal-clear waters and paradise islands</p>
+                    </div>
+                </div>
+                <div class="dest-card">
+                    <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=600&q=80" alt="Paris">
+                    <div class="dest-card-overlay">
+                        <span class="dest-tag">Europe</span>
+                        <h3>Paris, France</h3>
+                        <p>The city of light and love</p>
+                    </div>
+                </div>
+                <div class="dest-card">
+                    <img src="https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?w=600&q=80" alt="Tokyo">
+                    <div class="dest-card-overlay">
+                        <span class="dest-tag">Asia</span>
+                        <h3>Tokyo, Japan</h3>
+                        <p>Where tradition meets the future</p>
+                    </div>
+                </div>
+                <div class="dest-card">
+                    <img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?w=600&q=80" alt="Dubai">
+                    <div class="dest-card-overlay">
+                        <span class="dest-tag">Middle East</span>
+                        <h3>Dubai, UAE</h3>
+                        <p>A city of wonders and luxury</p>
+                    </div>
+                </div>
+                <div class="dest-card">
+                    <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&q=80" alt="Swiss Alps">
+                    <div class="dest-card-overlay">
+                        <span class="dest-tag">Adventure</span>
+                        <h3>Swiss Alps</h3>
+                        <p>Majestic mountains and alpine beauty</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-cta">
+                <a href="destinations.html" class="btn btn-primary">View All Destinations →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Stories Preview -->
+    <section class="section stories">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Latest Stories</p>
+                <h2>Travel Blog</h2>
+                <p class="section-desc">Fresh stories, practical tips, and honest guides from our latest adventures.</p>
+            </div>
+            <div class="stories-grid">
+                <article class="story-card">
+                    <div class="story-img">
+                        <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&q=80" alt="Bali temple">
+                        <span class="story-category">Southeast Asia</span>
+                    </div>
+                    <div class="story-body">
+                        <div class="story-meta">
+                            <span><i class="far fa-calendar"></i> Nov 20, 2026</span>
+                            <span><i class="far fa-clock"></i> 5 min read</span>
+                        </div>
+                        <h3>10 Hidden Gems in Bali You Won't Find in Guidebooks</h3>
+                        <p>Beyond the tourist traps — discover Bali's secret waterfalls, temples, and rice terraces that most visitors miss.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+                <article class="story-card">
+                    <div class="story-img">
+                        <img src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=600&q=80" alt="Northern Lights">
+                        <span class="story-category">Scandinavia</span>
+                    </div>
+                    <div class="story-body">
+                        <div class="story-meta">
+                            <span><i class="far fa-calendar"></i> Nov 15, 2026</span>
+                            <span><i class="far fa-clock"></i> 7 min read</span>
+                        </div>
+                        <h3>Chasing the Northern Lights: A Complete Guide</h3>
+                        <p>Everything you need to know about witnessing the aurora borealis — best locations, timing, and photography tips.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+                <article class="story-card">
+                    <div class="story-img">
+                        <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=600&q=80" alt="Road trip USA">
+                        <span class="story-category">North America</span>
+                    </div>
+                    <div class="story-body">
+                        <div class="story-meta">
+                            <span><i class="far fa-calendar"></i> Nov 10, 2026</span>
+                            <span><i class="far fa-clock"></i> 6 min read</span>
+                        </div>
+                        <h3>The Ultimate Pacific Coast Highway Road Trip</h3>
+                        <p>From San Francisco to San Diego — the must-stop viewpoints, beaches, and small towns along the iconic PCH.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery / Carousel -->
+    <section class="section gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Photo Gallery</p>
+                <h2>Moments from Our Travels</h2>
+                <p class="section-desc">A visual journey through breathtaking landscapes and vibrant cultures.</p>
+            </div>
+            <div class="gallery-carousel" id="galleryCarousel">
+                <div class="gallery-track" id="galleryTrack">
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=700&q=80" alt="Road through mountains">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=700&q=80" alt="Venice canals">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1512100356356-de1b84283e18?w=700&q=80" alt="Tropical sunset">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1433838552652-f9a46b332c40?w=700&q=80" alt="Mountain lake">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=700&q=80" alt="Taj Mahal">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=700&q=80" alt="Beach destination">
+                    </div>
+                </div>
+                <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="Previous">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn carousel-next" id="carouselNext" aria-label="Next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <div class="carousel-dots" id="carouselDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section newsletter">
+        <div class="container">
+            <div class="newsletter-inner">
+                <div class="newsletter-text">
+                    <h2>Never Miss an Adventure</h2>
+                    <p>Subscribe to our newsletter and get the latest travel stories, tips, and exclusive destination guides delivered to your inbox.</p>
+                </div>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <i class="fas fa-globe-americas"></i>
+                        <span>Vr<strong>Travel</strong></span>
+                    </a>
+                    <p>Inspiring wanderlust and sharing authentic travel stories from every corner of the world.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Top Destinations</h4>
+                    <ul>
+                        <li><a href="#">Maldives</a></li>
+                        <li><a href="#">Paris, France</a></li>
+                        <li><a href="#">Tokyo, Japan</a></li>
+                        <li><a href="#">Swiss Alps</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> hello@vrtravel.com</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Wanderlust HQ</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 VrTravel. All rights reserved. Made with ❤️ for adventurers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
